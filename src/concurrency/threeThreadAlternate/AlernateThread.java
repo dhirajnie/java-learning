@@ -4,7 +4,6 @@ package concurrency.threeThreadAlternate;
 class Printer{
     int expectedInt=0;
     synchronized void  print(int i ) throws InterruptedException {
-
          while(expectedInt!=i){
              wait();
          }

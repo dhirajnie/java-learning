@@ -36,6 +36,7 @@ public class ExecutorTest {
         ex.execute(new Task("D"));
 
 
+
         /**
          * THere is a different way to submit callable task in executor service
          */
